@@ -1,0 +1,40 @@
+h2{
+  font : 20pt sans-serif ;
+}
+canvas{
+  border : 1px solid black ;
+  margin : auto ;
+}
+input#input_text_size{
+  width : 25px ;
+}
+
+table#table_canvas_wrapper{
+  width : 550px ;
+  border-collapse : collapse ;
+}
+
+td#td_NW, td#td_NE, td#td_W, td#td_E, td#td_SW, td#td_SE{
+  width : 25px ;
+}
+td#td_NW, td#td_N, td#td_NE, td#td_SW, td#td_S, td#td_SE{
+  height : 25px ;
+}
+td#td_middle{
+  vertical-align : middle ;
+  text-align : center ;
+}
+td#td_N, td#td_W, td#td_E, td#td_S{
+  background : #ccccff ;
+  border : 1px solid black ;
+}
+
+div.tab{
+  display : table ;
+}
+div.tab_row{
+  display : table-row ;
+}
+div.tab_cell{
+  display : table-cell ;
+}
